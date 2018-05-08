@@ -1,0 +1,104 @@
+body {
+    font-family: "Futura",Arial,sans-serif;}
+
+ul#menu {
+        font-family: "Futura", sans-serif;
+        font-size: 11px;
+        margin: 400px;
+        padding: 25px;}
+ul#menu li {
+    background-color: white;
+    border-bottom: 4px solid black;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    float: left; /* elementi su singola riga */}
+
+ul#menu li a {
+    color: black;
+    display: block;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;}
+
+ul#menu li.active, ul#menu li:hover {
+    background-color: orange;
+    border-bottom: 4px solid white;}
+h1 {
+  display: block;
+    height: 15%;
+    line-height: 7em;
+    text-decoration: none;
+    color:black;
+    text-align:center}
+
+hr{size:10px;
+    wight:300;}
+
+ul#menu {
+  margin-top:40px;
+  text-align:center;
+  line-height:8px;
+   font-size= 4em;
+    face:futura;
+     font-weight:light;
+     text-align: center;}
+
+#slider {text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right:0%;
+  widht: 500%;
+shadow: small shadow;
+  width:640px;
+      height:427px;
+      margin:40px auto;
+         background:url(../images/loading.gif) no-repeat 50% 50%;
+     }
+
+
+h4 { text-align: left;
+  position: absolute;
+  top: 110%;
+  left:4%;
+  font-size: 20px;
+  font-weight:500;
+color: orange;}
+
+h5{ text-align: left;
+position:absolute;
+top:115%;
+left:5%;
+right:10%;
+font-size:14px;
+font-weight:150;
+color:grey;}
+
+h6 { text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  right:0%;
+  widht: 500%;
+shadow: small shadow;
+}
+
+span { text-align: center;
+position: absolute;
+top: 135%;
+left:4%;
+color:orange;
+font-size:20px;
+font-weight:500;
+color: orange;}
+
+@quadrato {
+	width:100px;
+	height:100px;
+	background:orange;
+}
