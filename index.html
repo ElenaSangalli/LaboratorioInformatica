@@ -1,50 +1,62 @@
-<link rel="stylesheet" href="css/style.css"> </link>
-<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<!DOCTYPE>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
 
 <head>
-
-<p>
-<p> <h1> ElenaSangalli.</h1> </p>
-<hr></hr>
-</p>
-
+  <title>Elena Sangalli</title>
+  <link rel="stylesheet" href="css/style.css"> </link>
+  <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" /></link>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" /></link>
 </head>
 
 <body>
+  <div>
+    <p> <h1> ElenaSangalli.</h1> </p></div>
+    <hr></hr>
+  </div>
 
-<p>
-<h2><ul id="menu">
-  <li><a href="#About_Me">About Me</a></li>
-  <li><a href="#Projects">Projects</a></li>
-  <li><a href="#Curriculum">Curriculum</a></li>
-  <li><a href="#Contact">Contact</a></li>
-</ul></h2>
-</p>
-
-<p>
-<div id="slider">
-<!--<img src="immagini/banner1.jpg" alt="Fuori Salone"/>
-<img src="immagini/banner2.jpg" alt="Vitra Haus"/> -->
-<img src="images/slider-1.jpg" alt="Fuori Salone"/>
-<img src="images/slider-2.jpg" alt="Vitra Haus"/>
-</div>
-</p>
+  <div>
+    <h2><ul id="menu">
+      <li><a href="#About_Me">About Me</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Curriculum">Curriculum</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul></h2>
+  </div>
 
 
-<p>
-<h4> <p id="About_Me">Ciao!<p> </h4>
-  <h5> <p><br>Sono Elena Sangalli; sono nata a Vimercate, in provincia di Monza e Brianza, il 10 novembre 1998.
-  Ho frequentato il Liceo Artistico Statale della Villa Reale di Monza, nel quale ho iniziato a conoscere il mondo
-della grafica e dell'arte per le quali mi sono da subito appassionata. Per questo motivo ho deciso di iscrivermi al corso di Design della Comunicazione al Politcnico di Milano.
-Nel corso della mia brevissima esperienza in campo grafico, ho sviluppato alcuni progetti presentati qui sotto.</br></p> </h5>
-
-<span><p id="Projects">Projects - Calendario Capitali della Cultura 2018<p></span>
-<h6><div class=="Portfolio Calendario"> <img src="immagini/portfolio.jpg" alt="Calendario"></div></h6>
-</p>
+  <div id="slider" class="nivoSlider">
+    <img src="immagini/slider-1.jpg" alt="Fuori Salone" />
+    <img src="immagini/slider-2.jpg" alt="Vitra Haus" />
+    <img src="immagini/slider-3.jpg" alt="Terzo" />
+    <img src="immagini/slider-4.jpg" alt="Quarto" />
+  </div>
 
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
-<script type="text/javascript" src="js/javascript.js"></script>
+  <div>
+    <h4> <p id="About_Me">Ciao!<p> </h4>
+      <h5> <p><br>Sono Elena Sangalli; sono nata a Vimercate, in provincia di Monza e Brianza, il 10 novembre 1998.
+        <br>Ho frequentato il Liceo Artistico Statale della Villa Reale di Monza, nel quale ho iniziato a conoscere il mondo della grafica e dell'arte per le quali mi sono da subito appassionata.
+        <br>Per questo motivo ho deciso di iscrivermi al corso di Design della Comunicazione al Politcnico di Milano.
+        <br>Nel corso della mia brevissima esperienza in campo grafico, ho sviluppato alcuni progetti presentati qui sotto.</p></h5>
+  </div>
+
+  <div>
+    <span><p id="Projects">Projects - Calendario Capitali della Cultura 2018<p></span>
+      <h6><div class=="Portfolio Calendario"> <img src="immagini/portfolio.jpg" alt="Calendario"></div></h6>
+    </div>
+
+
+  <script type="text/javascript" src="scripts/jquery-1.4.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+  <script type="text/javascript" src="scripts/jquery.nivo.slider.pack.js"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('#slider').nivoSlider({
+        effect:'fade',
+        pauseTime: 5000
+      });
+    });
+  </script>
 </body>
+</html>
