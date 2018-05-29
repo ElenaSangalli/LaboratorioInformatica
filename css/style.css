@@ -35,7 +35,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #000;
+	color: #46192C;
 }
 ul, ol {
 	list-style: none;
@@ -139,8 +139,8 @@ hr {
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	background-color: #46192C;
+	border-color: #46192C;
 }
 /* Header Section */
 .intro {
@@ -148,7 +148,7 @@ hr {
 	width: 100%;
 	padding-bottom: 200px;
 	text-align: center;
-	color: #333;
+	color: #46192C;
 	background: url(../img/intro-bg.jpg) no-repeat center top;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
@@ -164,7 +164,7 @@ hr {
 	font-weight: 600;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
-	color: black;
+	color: #46192C;
 }
 .intro p {
 	font-size: 20px;
@@ -211,18 +211,18 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	border: 1px solid #777;
-	color: #555;
+	border: 1px solid #46192C;
+	color: #46192C;
 	padding: 8px 20px;
 }
 ol.type li a.active {
-	background: #222;
-	border: 1px solid #222;
+	background: #46192C;
+	border: 1px solid #46192C;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #222;
-	border: 1px solid #222;
+	background: #46192C;
+	border: 1px solid #46192C;
 	color: #fff;
 }
 .isotope-item {
@@ -322,52 +322,7 @@ ol.type li a:hover {
 	padding: 5px;
 	color: #E87E04;
 }
-/* Contact Section */
-#contact {
-	padding: 120px 0 60px 0;
-}
-#contact h3 {
-	padding-top: 20px;
-	font-size: 20px;
-	font-weight: 400;
-	color: #fff;
-}
-#contact form {
-	padding: 30px 0;
-}
-#contact .text-danger {
-	color: #E87E04;
-	text-align: left;
-}
-label {
-	font-size: 12px;
-	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
-	float: left;
-}
-#contact .form-control {
-	display: block;
-	width: 100%;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	color: #2c3e50;
-	background-color: rgba(255,255,255,0.8);
-	background-image: none;
-	border: 1px solid #999;
-	border-radius: 0;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-transition: none;
-	-o-transition: none;
-	transition: none;
-}
-#contact .form-control:focus {
-	border-color: inherit;
-	outline: 0;
-	-webkit-box-shadow: transparent;
-	box-shadow: transparent;
-}
+
 .form-control::-webkit-input-placeholder {
 color: #2c3e50;
 }
@@ -388,7 +343,7 @@ color: #2c3e50;
 	margin: 0 20px;
 }
 #contact .social i.fa {
-	font-size: 22px;
+	font-size: 30px;
 	padding: 4px;
 	color: #444;
 	transition: all 0.5s;
